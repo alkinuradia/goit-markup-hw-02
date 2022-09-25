@@ -26,8 +26,33 @@ ul {
     background-color: var(--accent-color);
 }
 
-.test-link:hover,
-.test-link:focus {
+.button {
+    color: var(--secondary-color);
+    background-color: #F5F4FA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--button);
+    background-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.text-link:hover,
+.text-link:focus {
     color:var(--accent-color);
 }
 /* навигация по сайту */
@@ -35,6 +60,9 @@ ul {
     color: var(--secondary-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
 /* contact */
 .contact a {
     color: var(--primary-color);
@@ -45,4 +73,21 @@ ul {
 .section-team,
 .section-works {
     color: var(--secondary-color);
+}
+
+.section-works {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.section-works .p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
