@@ -10,9 +10,17 @@ body {
     background-color: #FFFFFF;
 }
 
+/* отмена маркировки списка */
+
+ul {
+    list-style: none;
+}
+
 .text {
     color: var(--secondary-color);
 }
+
+/* стилизация кнопки */
 .button.primery {
     color: var(--button);
     background-color: var(--accent-color);
@@ -21,4 +29,20 @@ body {
 .test-link:hover,
 .test-link:focus {
     color:var(--accent-color);
+}
+/* навигация по сайту */
+.site-nav a {
+    color: var(--secondary-color);
+}
+
+/* contact */
+.contact a {
+    color: var(--primary-color);
+}
+
+.section-title,
+.section-subtitle, 
+.section-team,
+.section-works {
+    color: var(--secondary-color);
 }
