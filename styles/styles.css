@@ -150,7 +150,7 @@ body {
     color: var(--main-bg-color);
 }
 
-.bottom-adress {
+.bottom-address {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -171,6 +171,14 @@ body {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+
+.bottom-mail:hover, 
+.bottom-mail:focus,
+.bottom-tel:hover,
+.bottom-tel:focus {
+    color: var(--main-bg-color);
+}
+
 
 .navigation-title, .portfolio-title {
     font-weight: 700;
