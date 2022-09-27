@@ -82,14 +82,6 @@ body {
 	cursor: pointer;
 }
 
-.section-title {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	color: var(--secondary-color);
-}
-
 .section-subtitle {
 	font-weight: 700;
 	font-size: 14px;
@@ -177,15 +169,6 @@ body {
 .bottom-tel:hover,
 .bottom-tel:focus {
 	color: var(--main-bg-color);
-}
-
-.navigation-title,
-.portfolio-title {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	color: var(--secondary-color);
 }
 
 .navigation-button {
