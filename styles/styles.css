@@ -91,8 +91,7 @@ span {
 	cursor: pointer;
 }
 
-.button-primary:hover,
-.button-primary:focus {
+.button-primary:active {
 	color: var(--accent-color);
 	background-color: #188ce8;
 }
